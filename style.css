@@ -1,0 +1,61 @@
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0%;
+    color: #3d3d3d;
+  }
+
+  .body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .etch {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 1em;
+    border-radius: 40px;
+    background-color: rgb(190, 43, 43);
+    padding: 2rem;
+    align-items: center;
+  }
+
+  #container {
+    margin: 10px;
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box;
+    background-color: grey;
+  }
+
+  #grid {
+    outline: white;
+    float: left;
+  }
+  
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: .5rem;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 2rem;
+  }
+
+  button {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: rgb(190, 43, 43);
+    border-color: #3d3d3d;
+    border-width: 1px;
+
+  }
+
+  button:hover {
+    color: rgb(190, 43, 43);
+    cursor: pointer;
+    background-color: #ddd;
+  }
